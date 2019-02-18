@@ -1,4 +1,6 @@
-/*Typo*/
+/*************
+	Typo
+**************/
 @font-face {
     font-family: 'noto_monoregular';
     src: url('NotoMono-Regular-webfont.eot');
@@ -28,7 +30,9 @@
 
 
 
-/*General*/
+/**************
+	General
+***************/
 body{
 	background-color: #F7F0F5;
 }
@@ -36,7 +40,6 @@ body{
 h1{
 	color: #534B52;
 	text-align: center;
-
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -47,7 +50,26 @@ p{
 	font-family: 'abelregular';
 }
 
-/*Couleur */
+label{
+	font-family: "abelregular" 
+}
+
+small{
+	font-family: "abelregular"
+	font-size: 0.8em;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:visited{
+	color:#DD7230;
+}
+
+/**************
+	Couleur
+***************/
 
 
 #colors{
@@ -88,7 +110,9 @@ div .Second_Color{
 }
 
 
-/*THREE SHADES OF GREY*/
+/********************
+	THREE SHADES OF GREY
+*********************/
 
 #shades{
 	justify-content: center;
@@ -136,7 +160,9 @@ div .Light_Grey{
 	padding-left: 23%;
 }
 
-/*BOUTONS*/
+/***************
+	BOUTONS
+****************/
 
 #butts{
 	justify-content: space-between;
@@ -230,7 +256,7 @@ button{
 	height: 60px;
 	background: #1FD12B;
 	border: solid 1px #1FD12B;
-	border-radius: 0% 0% 0% 0%;
+	border-radius: 30px;
 }
 
 div .Small_Danger_button{
@@ -239,5 +265,33 @@ div .Small_Danger_button{
 	height: 60px;
 	background: #BF211E;
 	border: solid 1px #BF211E;
-	border-radius: 0% 0% 0% 0%;
+	border-radius: 30px;
+}
+
+/**********************************
+			Formulaire
+***********************************/
+
+#forms{
+	justify-content: center;
+}
+
+input{
+	width: 150px;
+	height: 25px;
+	border-radius: 25px;  
+}
+
+
+/*********************************
+			Liste
+**********************************/
+
+.list-item-group{
+	border: solid 2px #AFC97E ;
+	background: #AFC97E;
+	width: 200px;
+	border-radius: 15px; 
+	color: white;
+	font-style: 'abelregular';
 }
